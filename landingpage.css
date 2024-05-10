@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+html{
+    scroll-behavior: smooth;
+}                                                                     
+#navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(landingpage/background.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ea1538;
+    transition: 0.1s;
+}
+#logo{
+    color: white;
+    font-size: 30px;
+}
+span{
+    color: #ea1538;
+}
+#navbar button {
+    position: relative;
+    transition: all .3s ease;
+    border: 1px solid white;
+    line-height: 1;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+#navbar button a{
+    position: relative;
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navbar button:hover {
+    color: white;
+    background-color: #ea1538;
+    border: 1px solid #ea1538;
+    text-decoration: none;
+    font-weight: bold;
+}
+#landingpage_text{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#landingpage_text h1{
+    position: relative;
+    top: 10%; 
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-size: 1000%;
+    color: white;   
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+#landingpage_text p{
+    position: relative;
+    bottom: 23v;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#profile{
+    display:flex;
+    position: relative;
+    justify-content:space-evenly;
+    align-items:center;
+    background-image: url(landingpage/background5.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #28282B;
+    height: 100vh;
+    width: 100%;
+}
+
+#profile img{
+    position: relative;
+    border-radius: 5%;
+    height: 85vh;
+    width: auto;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
+}
+
+#profile_texts{
+    width: 40%;
+    color: white;
+}
+
+#profile_texts h1{
+    position: relative;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 320%;
+    line-height: 9vh;
+}
+
+#profile_texts p{
+    position: relative;
+    font-size: 16px;
+    line-height: 35px;  
+    top:90%;
+}
+
+#profile_texts  button {
+    position: relative;
+    top: 220%;
+    transition: all .3s ease;
+    border: 1px solid white;
+    line-height: 1;
+    background-color : transparent;
+    padding: 15px;
+    outline: none;
+    border-radius: 4px;
+}
+#profile_texts  button a{
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#profile_texts button:hover {
+    color: white;
+    background-color: #ea1538;
+    border: 1px solid #ea1538;
+    text-decoration: none;
+    font-weight: bold;
+}
